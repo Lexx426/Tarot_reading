@@ -1,3 +1,4 @@
+import MobileNav from "./components/MobileNav";
 import Navbar from "./components/Navbar";
 import './scss/index.scss'
 
@@ -5,7 +6,8 @@ import './scss/index.scss'
 function App() {
   return (
     <div className="App">
-      <Navbar/>
+      {/* <Navbar/> */}
+      <MobileNav/>
     </div>
   );
 }
