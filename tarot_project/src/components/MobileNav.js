@@ -24,6 +24,20 @@ function MobileNav() {
                         <line x1={6} y1={6} x2={18} y2={18}/>
                     </svg>
                 </div>
+                <ul>
+                    <li>
+                        History
+                    </li>
+                    <li>
+                        Cards
+                    </li>
+                    <li>
+                        Quiz
+                    </li>
+                    <li>
+                        Log in
+                    </li>
+                </ul>
             </section>
             
         </nav>
