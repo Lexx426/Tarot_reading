@@ -26,16 +26,25 @@ function MobileNav() {
                 </div>
                 <ul>
                     <li>
+                        <a>
                         History
+                        </a>
                     </li>
                     <li>
-                        Cards
+                        <a>
+                            Cards
+                        </a>
+                        
                     </li>
                     <li>
-                        Quiz
+                        <a>
+                            Quiz
+                        </a>
                     </li>
                     <li>
-                        Log in
+                        <a>
+                            Log in
+                        </a>
                     </li>
                 </ul>
             </section>
