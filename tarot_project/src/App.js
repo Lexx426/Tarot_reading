@@ -6,7 +6,7 @@ import './scss/index.scss'
 function App() {
   return (
     <div className="App">
-      {/* <Navbar/> */}
+      <Navbar/>
       <MobileNav/>
     </div>
   );
