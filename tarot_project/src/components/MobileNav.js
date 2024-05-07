@@ -30,23 +30,23 @@ function MobileNav() {
                 
                     <ul className="NAVIGATION-MOBILE-OPEN flex flex-col items-center justify-between min-h-[250px]">
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a>
+                            <a href='/'>
                             History
                             </a>
                         </li>
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a>
+                            <a href='/'>
                                 Cards
                             </a>
                             
                         </li>
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a>
+                            <a href='/'>
                                 Quiz
                             </a>
                         </li>
                         <li className="border-b border-gray-400 my-8 uppercase">
-                            <a>
+                            <a href='/'>
                                 Log in
                             </a>
                         </li>
