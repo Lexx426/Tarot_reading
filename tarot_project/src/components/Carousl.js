@@ -7,6 +7,8 @@ import '../scss/Carousel.scss'
 function Carousl() {
     const settings = {
         accessibility: true,
+        autoplay: true,
+        // centerMode: true,
         dots: true,
         infinite: true,
         speed: 500,
@@ -18,7 +20,7 @@ function Carousl() {
         <Slider {...settings}>
             <div>
                 <h3 className='bg-red-300 w-50 flex justify-center'>1</h3>
-                <img src='tarot_project/tarot-file/cards/c01.jpg' alt='card1'></img>
+                <img src='../tarot-file/img/c01.jpg' alt='card1'></img>
             </div>
             <div>
                 <h3>2</h3>
