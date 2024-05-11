@@ -1,3 +1,4 @@
+import Carousl from "./components/Carousl";
 import MainBody from "./components/MainBody";
 import MobileNav from "./components/MobileNav";
 import Navbar from "./components/Navbar";
@@ -10,6 +11,7 @@ function App() {
       <Navbar/>
       <MobileNav/>
       <MainBody/>
+      <Carousl/>
     </div>
   );
 }
