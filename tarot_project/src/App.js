@@ -1,4 +1,5 @@
 
+import IndividualCard from "./components/IndividualCard";
 import MainBody from "./components/MainBody";
 import MobileNav from "./components/MobileNav";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <MobileNav/>
       <MainBody/>
+      <IndividualCard/>
 
     </div>
   );
