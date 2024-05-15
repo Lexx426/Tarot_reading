@@ -6,6 +6,7 @@ function IndividualCard() {
   return (
     <div>
       {tarotData.name}
+      {tarotData.img}
     </div>
   )
 }
