@@ -6,8 +6,8 @@ import '../scss/Carousel.scss'
 
 function Carousl() {
     const settings = {
-        // accessibility: true,
-        // autoplay: true,
+        accessibility: true,
+        autoplay: true,
         // centerMode: true,
         dots: true,
         infinite: true,
