@@ -2,6 +2,9 @@ import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Card1 from "../tarot-file/img/c01.jpg";
+import Card2 from "../tarot-file/img/c02.jpg";
+import Card3 from "../tarot-file/img/c03.jpg";
 import '../scss/Carousel.scss'
 
 function Carousl() {
@@ -37,15 +40,15 @@ function Carousl() {
             
             <div className='flex justify-center items-center '>
                 {/* <h3>1</h3> */}
-                <img  src='../tarot-file/img/c01.jpg' alt='card1' style={{ margin: 'auto' }}/>
+                <img  src={Card1} alt='card1' style={{ margin: 'auto' }}/>
             </div>
             <div className='flex justify-center items-center '>
             {/* <h3 className='bg-red-300 w-50 flex justify-center '>2</h3> */}
-                <img src='../tarot-file/img/c02.jpg' alt='card1' style={{ margin: 'auto' }}/>
+                <img src={Card2} alt='card1' style={{ margin: 'auto' }}/>
             </div>
             <div className='flex justify-center items-center '>
             {/* <h3>3</h3> */}
-                <img src='../tarot-file/img/c03.jpg' alt='card1' style={{ margin: 'auto' }}/>
+                <img src={Card3} alt='card1' style={{ margin: 'auto' }}/>
             </div>
         </Slider>
     </div>
