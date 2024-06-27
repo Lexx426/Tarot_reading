@@ -6,7 +6,7 @@ function InfoCards(props) {
     <div className='column-3 border  border-spacing-1'>
         <h3> {name} </h3>
         <p> {description} </p>
-        <p> This is a demo sentence....</p>
+        <p> This is a demo sentence.</p>p
     </div>
   )
 }
