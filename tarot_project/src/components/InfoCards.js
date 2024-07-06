@@ -7,7 +7,7 @@ function InfoCards(props) {
         <h3> {name} </h3>
         <p> {description} </p>
         <p> This is a demo sentence.</p>
-        <p>  JEez man</p>
+        <p>  JEez man. this literally is something</p>
     </div>
   )
 }
